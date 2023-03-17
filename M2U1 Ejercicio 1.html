@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2U1 Ejercicio 1</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+    <h3>Haz click en un cuadrado para cambiar el color de fondo del navegador:</h3>
+        <div id="primercuadrado"></div>
+        <div id="segundocuadrado"></div>
+        <div id="tercercuadrado"></div>
+    <script>
+        const rojo = document.getElementById('primercuadrado');
+        const azul = document.getElementById('segundocuadrado');
+        const amarillo = document.getElementById('tercercuadrado');
+        
+        rojo.addEventListener('click', function()
+        {
+            document.body.style.background = 'red';
+        })
+        azul.addEventListener('click', function()
+        {
+            document.body.style.background = 'blue';
+        })
+        amarillo.addEventListener('click', function()
+        {
+            document.body.style.background = 'yellow';
+        })
+    </script>
+    
+</body>
+</html>

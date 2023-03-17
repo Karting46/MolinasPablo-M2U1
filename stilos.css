@@ -1,0 +1,32 @@
+body {
+    /**outline : 1px solid red;*/
+    display : flex;
+    align-items: center;
+}
+
+h3 {
+    color:black;
+}
+
+#primercuadrado {
+    background-color: red;
+}
+
+#segundocuadrado {
+    background-color: blue;
+}
+
+#tercercuadrado {
+    background-color: yellow;
+}
+
+#primercuadrado,#segundocuadrado,#tercercuadrado {
+    display: flex;
+    width: 150px;
+	height: 150px;
+	margin: 10px;
+	font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
